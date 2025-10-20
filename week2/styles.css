@@ -1,0 +1,172 @@
+/* Global CSS Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+}
+
+/* !important to prevent Tailwind overrides */
+body {
+    font-family: sans-serif !important;
+    margin: 40px auto !important;
+    max-width: 1200px !important;
+    line-height: 1.6 !important;
+    background-color: #fff !important;
+    color: #333 !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+section {
+    margin-bottom: 50px;
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+}
+
+body h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 30px;
+}
+
+body h2 {
+    font-size: 1.25rem;
+    color: #333;
+    border-left: 4px solid #007acc;
+    padding-left: 8px;
+}
+
+.example {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px dashed #000000;
+    background: #fafafa;
+}
+
+/* Colours */
+.text-red {
+    color: red;
+}
+
+.bg-yellow {
+    background-color: lightyellow;
+}
+
+/* Margin vs Padding */
+.spacing-demo {
+    margin-bottom: 30px;
+}
+
+.box-with-margin {
+    background-color: lightblue;
+    border: 3px solid #333;
+    margin: 20px;
+    padding: 0;
+    /* Orange background shows the margin space */
+    box-shadow: 0 0 0 20px orange;
+}
+
+.box-with-padding {
+    background-color: lightblue;
+    border: 3px solid #333;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Display Types */
+.display-section {
+    margin-bottom: 30px;
+}
+
+.display-label {
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-size: 1rem;
+}
+
+.display-explanation {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+}
+
+.display-demo {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #333;
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+    /* Try changing these values - they won't work! */
+    width: 150px;
+    height: 50px;
+}
+
+.inline-block {
+    display: inline-block;
+    /* Try changing these values to see the difference! */
+    width: 150px;
+    height: 50px;
+}
+
+/* Flexbox */
+.flex-container {
+    display: flex;
+
+    /* Try changing this to space-between or space-around */
+    justify-content: space-evenly;
+
+    /* Try changing this to column */
+    flex-direction: row;
+
+    align-items: center;
+    min-height: 200px;
+    border: 2px solid #333;
+    padding: 20px;
+}
+
+.flex-item {
+    background-color: lightcoral;
+    border: 2px solid black;
+    color: white;
+    padding: 1.25rem;
+    width: 12rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Simple Card */
+.simple-card {
+    background-color: lightgray;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 2px solid gray;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.simple-card h3 {
+    font-weight: bold;
+    /* Same as text-lg in Tailwind */
+    font-size: 1.125rem;
+    /* Same as mb-2 in Tailwind */
+    margin-bottom: 0.5rem;
+}
+
+.simple-card p {
+    margin: 0;
+}

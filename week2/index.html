@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>QWeb: CSS Styling</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>QWeb Tutorial 2: CSS Styling</h1>
+
+    <!-- Colours -->
+    <section>
+        <h2>Colours</h2>
+        <div class="example">
+            <p class="text-red">This text is red!</p>
+            <p class="bg-yellow">This text has a background colour.</p>
+        </div>
+    </section>
+
+    <!-- Margin vs Padding -->
+    <section>
+        <h2>Margin vs Padding</h2>
+        <div class="example">
+            <div class="spacing-demo">
+                <p><strong>Margin (orange area):</strong> Space <em>outside</em> the border</p>
+                <div class="box-with-margin">
+                    Content with margin: 20px
+                </div>
+            </div>
+            
+            <div class="spacing-demo">
+                <p><strong>Padding (blue area):</strong> Space <em>inside</em> the border</p>
+                <div class="box-with-padding">
+                    Content with padding: 20px
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Display Types -->
+    <section>
+        <h2>Display Types</h2>
+        <div class="example">
+            <div class="display-section">
+                <p class="display-label"><strong>Display: Block</strong></p>
+                <p class="display-explanation">Takes full width, stacks vertically. Each element starts on a new line.</p>
+                <div class="display-demo block">Block 1</div>
+                <div class="display-demo block">Block 2</div>
+                <div class="display-demo block">Block 3</div>
+            </div>
+            
+            <div class="display-section">
+                <p class="display-label"><strong>Display: Inline</strong></p>
+                <p class="display-explanation">Flows horizontally. Width, height, and padding/margins are ignored.</p>
+                <span class="display-demo inline">Inline 1</span>
+                <span class="display-demo inline">Inline 2</span>
+                <span class="display-demo inline">Inline 3</span>
+            </div>
+            
+            <div class="display-section">
+                <p class="display-label"><strong>Display: Inline-Block</strong></p>
+                <p class="display-explanation">Flows horizontally like inline, but you can set width, height, and padding/margins.</p>
+                <div class="display-demo inline-block">Inline-Block 1</div>
+                <div class="display-demo inline-block">Inline-Block 2</div>
+                <div class="display-demo inline-block">Inline-Block 3</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flexbox -->
+    <section>
+        <h2>Flexbox Example</h2>
+        <div class="example flex-container">
+            <div class="flex-item">Div 1</div>
+            <div class="flex-item">Div 2</div>
+            <div class="flex-item">Div 3</div>
+        </div>
+        <p>Try changing <code>flex-direction</code> to <code>column</code> or <code>justify-content</code> in the
+            CSS to see layout changes.</p>
+    </section>
+
+    <!-- Simple Box (Vanilla CSS) -->
+    <section>
+        <h2>Simple Card (Vanilla CSS)</h2>
+        <div class="example">
+            <div class="simple-card">
+                <h3>Card Title</h3>
+                <p>This is a simple card with some text.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tailwind Equivalent -->
+    <section>
+        <h2>Tailwind CSS Equivalent</h2>
+        <div class="example">
+            <!-- background colour, padding, border, border colour, center with margin -->
+            <div class="bg-[lightgray] p-4 rounded-lg border-2 border-[gray] max-w-xs mx-auto text-center">
+                <h3 class="font-bold text-lg mb-2">Card Title</h3>
+                <p>This is a simple card with some text.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
