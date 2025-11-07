@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    margin: 40px;
+    line-height: 1.6;
+}
+
+#change-text {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #555;
+    font-style: italic;
+}
+
+section {
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+section button {
+    margin-bottom: 0;
+}
+
+button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #005b99;
+}
+
+#parentContainer {
+    transition: background-color 0.3s ease;
+}

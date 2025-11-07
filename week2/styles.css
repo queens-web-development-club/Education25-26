@@ -127,10 +127,10 @@ body h2 {
     display: flex;
 
     /* Try changing this to space-between or space-around */
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     /* Try changing this to column */
-    flex-direction: row;
+    flex-direction: column;
 
     align-items: center;
     min-height: 200px;

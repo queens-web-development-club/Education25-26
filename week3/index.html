@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>QWeb Tutorial 3: JavaScript Basics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">QWeb Tutorial 3: JavaScript Basics</h1>
+
+    <section>
+        <h2>Inline JavaScript</h2>
+        <p>This example runs JavaScript directly in the HTML using the <code>&lt;script&gt;</code> tag.</p>
+        <!-- Inline script -->
+        <button onclick="alert('Hello QWeb!')">Click me (Inline Alert)</button>
+    </section>
+
+    <section>
+        <h2>External JavaScript</h2>
+        <p>JavaScript can also be written in a separate <code>.js</code> file and linked with
+            <code>&lt;script src="..."&gt;</code>.</p>
+        <button id="externalBtn">Run External Script</button>
+    </section>
+
+    <section>
+        <h2>Variables and Loops (Check the Console)</h2>
+        <p>Open your browser console (Inspect → Console) to see variable values and loop outputs printed by JavaScript.</p>
+        <button id="consoleDemo">Run Console Demo</button>
+    </section>
+
+    <section id="parentContainer">
+        <h2>DOM Manipulation</h2>
+        <p>JavaScript can change the content and style of elements dynamically.</p>
+        <button id="changeBtn">Change Text and Color</button>
+        <p id="change-text">Button has not been clicked yet.</p>
+    </section>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
