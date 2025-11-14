@@ -1,0 +1,39 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "Co-Chairs",
+      "coChairs": 2,
+      "directors": 0,
+      "executives": 0
+    },
+    {
+      "id": 2,
+      "name": "Development",
+      "coChairs": 0,
+      "directors": 3,
+      "executives": 1
+    },
+    {
+      "id": 3,
+      "name": "Education",
+      "coChairs": 0,
+      "directors": 2,
+      "executives": 1
+    },
+    {
+      "id": 4,
+      "name": "Partnerships",
+      "coChairs": 0,
+      "directors": 2,
+      "executives": 1
+    },
+    {
+      "id": 5,
+      "name": "Design",
+      "coChairs": 0,
+      "directors": 2,
+      "executives": 1
+    }
+  ]
+}
